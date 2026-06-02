@@ -32,3 +32,8 @@ int main()
     ifstream infile;
     //menunjuk ke sebuah file
     infile.open("contohfile.txt");
+    
+    cout << endl << ">=Membuka dan membaca file " << endl;
+    //kondisi jika file ada
+    if (infile.is_open())
+    {
