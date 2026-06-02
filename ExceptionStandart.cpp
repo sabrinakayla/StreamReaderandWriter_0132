@@ -1,7 +1,7 @@
 #include <iostream>
 #include <exception>
 #include <array>
-using namespace namespace std;
+using namespace std;
 
 int main()
 {
